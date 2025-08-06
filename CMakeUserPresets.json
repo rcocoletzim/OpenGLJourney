@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "configurePresets": [
+    {
+      "name": "HelloTriangle",
+      "inherits": "opengl-win-64",
+      "cacheVariables": {
+        "CMAKE_CXX_STANDARD": "23",
+        "VCPKG_TARGET_TRIPLET": "x64-windows-mixed"
+      },
+      "environment": {
+        "VCPKG_ROOT": "C:/vcpkg"
+      }
+    }
+  ]
+}

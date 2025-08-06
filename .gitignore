@@ -1,0 +1,60 @@
+# CMake build directories
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+install_manifest.txt
+
+# Executables and object files
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.lo
+
+# Compiled dynamic libraries and PDB files
+*.pdb
+*.idb
+
+# Visual Studio Code
+.vscode/
+
+# Backup and temporary files
+*~
+*.swp
+*.bak
+*.tmp
+*.log
+
+# Ninja files
+build.ninja
+.ninja_deps
+.ninja_log
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# vcpkg installed packages (if stored locally)
+vcpkg_installed/
+installed/
+packages/
+
+# Ignore vcpkg binary if added to the repo
+vcpkg.exe
+vcpkg
+
+# Ignore logs and testing outputs
+Testing/
+test-results/
