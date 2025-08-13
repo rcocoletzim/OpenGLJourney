@@ -2,4 +2,4 @@
 cmake_minimum_required(VERSION 4.0)
 project(OpenGLJourney LANGUAGES CXX)
 
-add_subdirectory(HelloTriangle)
+add_subdirectory(HelloShader)
